@@ -2,8 +2,7 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme } from "./theme";
 import { createGlobalStyle } from "styled-components";
 import { useRecoilValue } from "recoil";
-import Join from "./Join";
-import ToDoList from "./ToDoList";
+import ToDoList from "./components/ToDoList";
 
 const GlobalStyle = createGlobalStyle`
 
